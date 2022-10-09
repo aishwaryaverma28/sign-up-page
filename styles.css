@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    background-color: rgb(255, 209, 240);
+    
+}
+h1{
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    justify-content: center;
+    font-weight: 1000;
+   color: purple;
+   margin-top: 7rem;
+    margin-left: 40%;
+}
+p{
+    font-size: x-large;
+    font-weight: bold;
+    color: purple;
+    margin-top: 3rem;
+    margin-left: 30%;
+}
+form{
+    color: purple;
+    margin-top: 3rem;
+    margin-left: 30%;
+}
+.data-form{
+    margin-top: 4rem;
+    margin-left: 31rem;
+    display:flex ;
+  /* border: solid black;*/
+    height: 30rem;
+    width: 30rem;
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 0.2rem;
+   }
+.username{
+    text-align: center;
+    border: solid black;
+    height: 40rem;
+    width: 20rem;
+}
+.email{
+    text-align: center;
+    border: solid black;
+    height: 40rem;
+    width: 20rem;
+}
+.password{
+    text-align: center;
+    border: solid black;
+    height: 40rem;
+    width: 20rem;
+}
+.confirm-password{
+    text-align: center;
+    border: solid black;
+    height: 40rem;
+    width: 20rem;
+}
+.signup-btn{
+    text-align: center;
+    border: solid black;
+    height: 40rem;
+    width: 20rem;
+}
+.signup-btn:hover{
+    background-color: purple;
+
+}
